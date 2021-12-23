@@ -1,0 +1,29 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node myapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geneteck/ExpressApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geneteck/ExpressApp/issues"
+  },
+  "homepage": "https://github.com/Geneteck/ExpressApp#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "save": "^2.4.0",
+    "sequelize": "^6.12.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
+}
